@@ -1,16 +1,20 @@
-# 💡LeetCode-Hustle
+
+---
+
+# 💡 LeetCode-Hustle
 
 Welcome to **LeetCode-Hustle**! 🚀💡
 
-This repository is dedicated to my daily journey of solving problems on [LeetCode](https://leetcode.com/u/kartik__j26/). Each day, I'll be tackling one problem and uploading my solutions here to maintain consistency and improve my problem-solving skills.
+This repository is dedicated to my daily journey of solving problems on [LeetCode](https://leetcode.com/u/kartik__j26/). Each day, I will tackle one problem and upload my solution here to stay consistent and enhance my problem-solving skills.
 
-## 📚 Table of Contents
+## 📑 Table of Contents
 
 1. [Daily Challenge](#-daily-challenge)
 2. [Why LeetCode-Hustle?](#-why-leetcode-hustle)
 3. [Repository Structure](#-repository-structure)
 4. [Progress Tracking](#-progress-tracking)
 5. [Contributing](#-contributing)
+6. [Connect with Me](#-connect-with-me)
 
 ## 📅 Daily Challenge
 
@@ -22,32 +26,32 @@ Every day, I will :
 
 ## 🧠 Why LeetCode-Hustle?
 
-The purpose of this repo is to :
+This Repository exists to:
 
-- **Improve Coding Skills** : Consistent problem-solving practice on LeetCode.
+- **Improve Coding Skills** : Consistently practice problem-solving on LeetCode.
 - **Track Progress** : Keep a record of all my solutions in one place.
-- **Optimize Approaches** : Refactor solutions for better performance and readability over time.
-- **Stay Accountable** : Commit to coding daily and build a solid habit.
+- **Optimize Approaches** : Continuously refine solutions for better performance and readability.
+- **Stay Accountable** : Commit to daily coding and foster a solid habit.
 
 ## 📝 Repository Structure
 
-- **/solutions** : Contains the daily LeetCode problem solutions, organized by problem name or number.
-- **/notes** : Optional folder for any notes, tips, or explanations related to the problems.
+- **/solutions** : Contains daily LeetCode problem solutions, organized by problem name or number.
+- **/notes** : An optional folder for notes, tips, or additional explanations related to the problems.
 
 Each solution file will be named using the problem title or ID and will include detailed comments explaining the logic and approach used.
 
 ## 📈 Progress Tracking
 
-Feel free to check out my daily progress on LeetCode : [My LeetCode Profile](https://leetcode.com/u/kartik__j26/).
+Feel free to check out my daily progress on LeetCode: [My LeetCode Profile](https://leetcode.com/u/kartik__j26/).
 
 ## 🔗 Contributing
 
-This repo is mainly for personal tracking, but feel free to suggest improvements or discuss different approaches in the issues section!
+This repo is primarily for personal tracking, but if you have suggestions or want to discuss alternative approaches, feel free to contribute via the issues section!
 
 ## 💡 Connect with Me
 
-Stay connected on [LinkedIn](https://www.linkedin.com/in/-kartikjain/) to see more projects and improvements as I continue to learn and grow through this React training. Let's collaborate and create impactful web applications!
+Stay connected on [LinkedIn](https://www.linkedin.com/in/-kartikjain/) to see more projects and improvements as I continue my learning journey. Let's collaborate and create impactful web applications!
 
-Follow along to see my daily progress and solutions as I tackle new LeetCode problems.
+Follow along to track my daily progress and solutions as I tackle new LeetCode challenges.
 
----
+--- 
