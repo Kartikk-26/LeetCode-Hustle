@@ -1,0 +1,25 @@
+//Porblem Statement no : 1137
+//Porblem Statement Topic :  N-th Tribonacci Number
+class Solution {
+    public int tribonacci(int n) {
+        if(n==0){
+            return 0;
+        }
+        else if (n==1 || n==2){
+            return 1;
+        }
+
+        int fn = 0;
+        int sn = 1;
+        int tn = 1;
+        //int ft = 0;
+
+        for (int i=1 ; i<=n; i++){
+            int ft = fn + sn + tn;
+            fn = sn;
+            sn = tn;
+            tn = ft;
+        }
+        return fn;
+    }
+}
