@@ -5,7 +5,11 @@
 
 Welcome to **LeetCode-Hustle**! 🚀💡
 
-This repository is dedicated to my daily journey of solving problems on [LeetCode](https://leetcode.com/u/kartik__j26/). Each day, I will tackle one problem and upload my solution here to stay consistent and enhance my problem-solving skills.
+This repository is dedicated to my daily journey of solving Data Structure and Algorithm problems on LeetCode. 
+
+Each day, I will tackle one problem, upload my solution, and stay consistent in enhancing my problem-solving skills.
+
+
 
 ## 📑 Table of Contents
 
