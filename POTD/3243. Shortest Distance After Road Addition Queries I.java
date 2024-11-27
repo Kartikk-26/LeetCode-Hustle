@@ -2,37 +2,42 @@
 //Porblem Statement no : 3243.          
 //Porblem Statement Topic : Shortest Distance After Road Addition Queries I
 
-
 class Solution {
-    void updateDistances(vector<vector<int>>& graph, int current, vector<int>& distances) {
+    private void updateDistances(List<List<Integer>> graph, int current, int[] distances) {
         int newDist = distances[current] + 1;
-        for (int neighbor : graph[current]) {
+        
+        for (int neighbor : graph.get(current)) {
             if (distances[neighbor] <= newDist) continue;
+            
             distances[neighbor] = newDist;
             updateDistances(graph, neighbor, distances);
         }
     }
-public:
-    vector<int> shortestDistanceAfterQueries(int n, vector<vector<int>>& queries) {
-        vector<int> distances(n);
+    
+    public int[] shortestDistanceAfterQueries(int n, int[][] queries) {
+        int[] distances = new int[n];
         for (int i = 0; i < n; ++i) {
             distances[i] = n - 1 - i;
         }
         
-        vector<vector<int>> graph(n);
-        for (int i = 0; i + 1 < n; ++i) {
-            graph[i + 1].push_back(i);
+        List<List<Integer>> graph = new ArrayList<>();
+        for (int i = 0; i < n; ++i) {
+            graph.add(new ArrayList<>());
         }
         
-        vector<int> answer(queries.size());
+        for (int i = 0; i + 1 < n; ++i) {
+            graph.get(i + 1).add(i);
+        }
+        
+        int[] answer = new int[queries.length];
         int queryIdx = 0;
         
-        for (const auto& query : queries) {
+        for (int[] query : queries) {
             int source = query[0];
             int target = query[1];
             
-            graph[target].push_back(source);
-            distances[source] = min(distances[source], distances[target] + 1);
+            graph.get(target).add(source);
+            distances[source] = Math.min(distances[source], distances[target] + 1);
             updateDistances(graph, source, distances);
             
             answer[queryIdx++] = distances[0];
@@ -40,4 +45,4 @@ public:
         
         return answer;
     }
-};
+}
