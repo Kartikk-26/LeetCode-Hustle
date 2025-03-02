@@ -1,4 +1,4 @@
-class Solution {
+class Solution { //
     public int[][] mergeArrays(int[][] nums1, int[][] nums2) {
         int m = nums1.length, n = nums2.length;
         int i = 0, j = 0;
